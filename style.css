@@ -1,0 +1,355 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    position:static;
+    background: #fff;
+    top:0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    width:100%;
+    height:84px;
+}
+.header a i{
+    color:#16A085;
+    font-size: 28px;
+
+}
+.header a{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+
+}
+.header ul li{
+    width: 100px;
+    text-align: center;
+    
+}
+.header ul li a{
+    font-size: 18px;
+    color:gray;
+}
+.header ul li a:hover{
+    color:#16A085;
+}
+/* home-section */
+.home-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-section .image{
+    width: 50%;
+}
+.home-section .image img{
+    width:90%;
+}
+.home-section .content h1{
+    font-size: 55px;
+    color: rgb(74, 60, 60);
+    text-shadow: .4rem .3rem 0px rgba(0,0,0,.2);
+}
+.home-section .content p{
+    margin-top: 20px;
+    font-size: 18px;
+    color:gray;
+}
+.home-section .content button{
+    width: 140px;
+    height:42px;
+    margin-top: 20px;
+    background: none;
+    border:2PX solid #16A085;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0 1px 1px #a3a0a0;
+    color: #15A488;
+    transition:1s;
+}
+.home-section .content button:hover{
+    width:148px;
+    background:#15A488;
+    color:#fff;
+    cursor: pointer;
+}
+.home-section .content button i{
+    width: 30px;
+    height: 28px;
+    background: #15A488;
+    line-height: 30px;
+    color:#fff;
+    border-radius: 4px;
+}
+.home-section .content button:hover i{
+    background: #fff;
+    color:#15A488;
+}
+
+/* SERVICES SECTION START */
+.services_section{
+    margin:10px;
+}
+.services_section h1{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: .4rem .3rem 0px rgba(0,0,0,.2);
+}
+.services{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services .box{
+    width: 300px;
+    box-shadow:0px 0 5px 1px #b3aeae; 
+    border: 2px solid #15A488;
+    padding: 16px;
+    margin: 5px;
+}
+.services .box i{
+    font-size: 25px;
+    color:#16A085;
+}
+.services .box h3{
+    padding: 10px;
+    font-size: 28px;
+}
+.services .box p{
+    padding: 10px;
+    color: gray;
+}
+.services .box button{
+    width: 140px;
+    height:42px;
+    margin-top: 20px;
+    background: none;
+    border:2PX solid #16A085;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0 1px 1px #a3a0a0;
+    color: #15A488;
+    transition:1s;
+}
+.services .box button:hover{
+    width:148px;
+    background:#15A488;
+    color:#fff;
+    cursor: pointer;}
+
+    .services .box button i{
+        width: 30px;
+        height: 28px;
+        background: #15A488;
+        line-height: 30px;
+        color:#fff;
+        border-radius: 4px;
+    }
+    .services .box button:hover i{
+        background: #fff;
+        color:#15A488;
+    }
+    
+    /* About-section */
+
+    .about-section .about{
+        display:flex;
+        align-items: center;
+    }
+    .about-section .aboutus{
+        font-size: 50px;
+        
+        text-align: center;
+        text-shadow: .4rem .3rem 0px rgba(0,0,0,.2);
+
+    }
+    .about-section .about.about-left{
+        width:100%;
+    }
+    .about-section .about.about-left img{
+        width:40%;
+    }
+    .about-section .about .about-right{
+        width: 100%;
+        padding: 50px;
+    }
+    .about-section .about .about-right h1{
+        font-size: 45px;
+        color: #4d4343
+
+    }
+    .about-section .about .about-right p{
+        color:gray;
+        font-size: 20px;
+    }
+    .about-section .about .about-right button{
+    width: 140px;
+    height:42px;
+    margin-top: 20px;
+    background: none;
+    border:2PX solid #16A085;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0 1px 1px #a3a0a0;
+    color: #15A488;
+    transition:1s;
+
+    }
+    .about-section .about .about-right button:hover{
+        width:148px;
+        background:#15A488;
+        color:#fff;
+        cursor: pointer;
+
+    }
+    .about-section .about .about-right button i{
+        width: 30px;
+        height: 28px;
+        background: #15A488;
+        line-height: 30px;
+        color:#fff;
+        border-radius: 4px;
+
+    }
+    .about-section .about .about-right button:hover i{
+        background: #fff;
+        color:#15A488;
+
+    }
+    /* Doctor section design */
+    .doctor-section h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .doctor-section .container{
+        display:flex;
+        width:100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .doctor-section .container .box{
+        margin: 10px;
+        border: 3px solid #16A085;
+        width:300px;
+        height: 380px;
+        text-align: center;
+        border-radius: 7px;
+    }
+    .doctor-section .container .box img{
+        width:200px;
+        height:200px;
+        margin-top:20px;
+        border:2px solid #16A085;
+        border-radius: 7px;
+    }
+    .doctor-section .container .box .icon{
+        margin: 10px;
+    }
+    .doctor-section .container .box .icon a{
+        width: 150px;
+        height: 150px;
+        border:2px solid #16A085;
+        
+        line-height:150 px;
+    }
+    .doctor-section .container .box .icon a i{
+        font-size: 20px;
+        color: #16A085;
+    }
+    
+    /* book section design */
+    .booking-section h1{
+        text-align: center;
+        font-size: 45px;
+    }
+    .booking-section .container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .booking-section .container .img img{
+        width:350px;
+        height: 350px;
+        margin:60px;
+        padding: 50px;
+    }
+    .booking-section .container form{
+        width:460px;
+        height:400px;
+        border:2px solid #16A085;
+        padding:32px;
+    }
+    .booking-section .container form h1{
+        font-size: 40px;
+        padding: 15px 0;
+    }
+    .booking-section .container form .box{
+        display: block;
+        width:460px;
+        height:30px;
+        margin: 15px 0;
+        border:2px solid #16A085;
+        padding-left: 10px;
+        outline: none;
+        font-size: 20px;
+    }
+    .booking-section .container form .button{
+        text-align: center;
+        display:block;
+    }
+    .booking-section .container form .button input{
+        width: 140px;
+        height:42px;
+        margin-top: 20px;
+        background: none;
+        border:2PX solid #16A085;
+        font-size: 18px;
+        font-weight: 500;
+        box-shadow: 0px 0 1px 1px #a3a0a0;
+        color: #15A488;
+        transition:1s;
+        border-radius: 7px;
+    }
+    .booking-section .container form .button input:hover{
+        background: #16A085;
+        color:#fff;
+        cursor: pointer;
+    }
+
+    /* footer-section */
+
+    .footer-section .container{
+        display:flex;
+        padding:100px;
+    }
+    .footer-section .container .box h3{
+        font-size: 27px;
+        padding: 15px 0;
+
+    }
+    .footer-section .container .box{
+        width:25%;
+    }
+    .footer-section .container .box a{
+        display:block;
+        margin: 15px 0;
+        text-decoration: none;
+        color:#444;
+        font-size: 17px;
+
+    }
+    .footer-section .container .box a:hover i{
+        padding-right: 30px;
+    }
+    .footer-section .container .box a i{
+        color: #16A085;
+        transition: 2s;
+    }
